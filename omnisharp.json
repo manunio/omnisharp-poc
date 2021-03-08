@@ -1,0 +1,14 @@
+{
+    "msbuild": {
+        "EnablePackageAutoRestore": true,
+    },
+    "RoslynExtensionsOptions": {
+        "documentAnalysisTimeoutMs": 10000,
+        "enableDecompilationSupport": true,
+        "enableImportCompletion": true,
+        "enableAnalyzersSupport": true,
+        "locationPaths": [
+           "analyzers/"
+        ]
+      }
+}
